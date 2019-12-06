@@ -25,7 +25,7 @@ public class Para extends Basicstestng {
 		System.out.println("test 2 is running");
 	}
 
-	@Test(dependsOnMethods = "test2")
+	@Test
 	public static void test3() {
 		System.out.println("test3 is running");
 	}
