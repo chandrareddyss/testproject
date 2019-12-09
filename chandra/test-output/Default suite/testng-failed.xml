@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="chandra_mpj.chandra.Parameters">
+      <class name="Testngpractice.Gettitle">
         <methods>
-          <include name="testMethod"/>
+          <include name="gettitle"/>
+          <include name="msg"/>
+          <include name="close"/>
+          <include name="url"/>
         </methods>
-      </class> <!-- chandra_mpj.chandra.Parameters -->
+      </class> <!-- Testngpractice.Gettitle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="2" parallel="tests" name="Test(failed)">
+<suite thread-count="2" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="Test11111(failed)">
+    <parameter name="url" value="https://amazon.com"/>
     <classes>
-      <class name="chandra_mpj.chandra.maximize">
-        <parameter name="browser" value="chrome"/>
+      <class name="Testngpractice.Gettitle">
         <methods>
-          <include name="max"/>
-          <include name="closeapplication"/>
-          <include name="lunchapplication"/>
+          <include name="gettitle"/>
+          <include name="msg"/>
+          <include name="close"/>
+          <include name="url"/>
         </methods>
-      </class> <!-- chandra_mpj.chandra.maximize -->
+      </class> <!-- Testngpractice.Gettitle -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test11111(failed) -->
 </suite> <!-- Failed suite [Suite] -->
