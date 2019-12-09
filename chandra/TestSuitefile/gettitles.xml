@@ -3,7 +3,7 @@
 <suite parallel="methods" name="Suite" thread-count="2">
 
   <test name="Test11111">
-   <!-- <parameter name="browser" value="hjj"></parameter> -->
+   <parameter name="browser" value="hjj"></parameter>
   <parameter name="url" value="https://amazon.com"></parameter> 
     <classes>
       <class name="Testngpractice.Gettitle">
